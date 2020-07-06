@@ -1,5 +1,6 @@
 html{
   height:100vh;
+  scroll-behavior: smooth;
 }
 
 
@@ -22,6 +23,12 @@ h2{
 }
 
 h3{
+  color:#eedad1;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h4{
   color:#eedad1;
   font-family: 'Montserrat', sans-serif;
 
@@ -50,6 +57,7 @@ hr{
 .Top{
   position: relative;
   padding-top:50px;
+  padding-bottom: 50px;
   margin: 0;
 }
 
@@ -66,6 +74,7 @@ hr{
 
 .profilepic{
   height: 350px;
+  margin: 30px 0 30px 0;
 }
 
 .laptopimg{
@@ -104,10 +113,25 @@ hr{
   font-weight: bold;
 }
 
-.btn{
+.toper-link{
   font-family: 'Montserrat', sans-serif;
-  color:#f69e7b;
+  color:#383e56;
   font-weight: bold;
+}
+
+
+.boton{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color:#f69e7b
+}
+
+.boton:hover{
+  color:#eedad1;
+}
+
+.boton:visited{
+  color:#f69e7b;
 }
 
 .contact-me{
@@ -118,11 +142,24 @@ hr{
   color: #eedad1
 }
 
-.btn:hover{
-  color:#eedad1;
+.toper-link:hover{
+  color: #eedad1
 }
+
 
 .copyright{
   color:#eedad1;
   font-size: 0.7rem;
+}
+
+.navbar-custom{
+  color: #383e56;
+  background-Color:#f69e7b;
+  padding-top: 1px;
+  padding-bottom: 1px;
+
+}
+
+.nav-item{
+  list-style-type: none;
 }
