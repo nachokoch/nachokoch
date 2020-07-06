@@ -1,0 +1,165 @@
+html{
+  height:100vh;
+  scroll-behavior: smooth;
+}
+
+
+div {
+  background-color: #383e56;
+  margin: 0;
+  }
+
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size:6rem;
+  color: #f69e7b;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #f69e7b;
+  font-size: 2rem;
+}
+
+h3{
+  color:#eedad1;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h4{
+  color:#eedad1;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+p{
+  color: #d4b5b0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem
+}
+
+body {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+hr{
+  width: 5%;
+  border-top: 10px dotted #eedad1;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.Top{
+  position: relative;
+  padding-top:50px;
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+.Middle{
+  position: relative;
+  margin:0
+}
+
+.Bottom{
+  position: relative;
+  margin:0;
+  padding-bottom: 50px;
+}
+
+.profilepic{
+  height: 350px;
+  margin: 30px 0 30px 0;
+}
+
+.laptopimg{
+  height:200px;
+  float:left;
+  margin: 0 30px 0 0;
+}
+
+.toolsimg{
+  height:200px;
+  float: right;
+  margin: 0 0 0 30px;
+}
+.intro{
+  width: 50%;
+  margin: auto
+}
+
+.skill-row{
+  display: inline-block;
+  width: 50%;
+  margin: 25px auto 25px auto;
+  text-align: left;
+}
+
+.skill-row2{
+  display: inline-block;
+  width: 50%;
+  margin: 25px auto 25px auto;
+  text-align: right;
+}
+
+.footer-link{
+  font-family: 'Montserrat', sans-serif;
+  color:#f69e7b;
+  font-weight: bold;
+}
+
+.toper-link{
+  font-family: 'Montserrat', sans-serif;
+  color:#383e56;
+  font-weight: bold;
+}
+
+
+.boton{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color:#f69e7b
+}
+
+.boton:hover{
+  color:#eedad1;
+}
+
+.boton:visited{
+  color:#f69e7b;
+}
+
+.contact-me{
+  padding: 0 0 10px 0;
+}
+
+.footer-link:hover{
+  color: #eedad1
+}
+
+.toper-link:hover{
+  color: #eedad1
+}
+
+
+.copyright{
+  color:#eedad1;
+  font-size: 0.7rem;
+}
+
+.navbar-custom{
+  color: #383e56;
+  background-Color:#f69e7b;
+  padding-top: 1px;
+  padding-bottom: 1px;
+
+}
+
+.nav-item{
+  list-style-type: none;
+}
