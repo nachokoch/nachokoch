@@ -4,10 +4,23 @@ html{
 }
 
 
-div {
+#Top {
   background-color: #383e56;
   margin: 0;
   }
+
+#Middle {
+  background-color: #383e56;
+    margin: 0;
+}
+
+#Bottom {
+  background-color: #383e56;
+  margin: 0;
+}
+
+
+
 
 h1 {
   margin-top: 0;
@@ -162,4 +175,12 @@ hr{
 
 .nav-item{
   list-style-type: none;
+}
+
+.loguito{
+  padding:10px 10px;
+}
+
+#barranavegador{
+  background-color: #f69e7b;
 }
